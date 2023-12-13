@@ -1,16 +1,62 @@
-# voice_calculator_flutter
+# IASR- Voice Calculator
 
-A new Flutter project.
+Voice Calculator is a Flutter application that allows users to perform mathematical calculations using voice commands. The application has a user-friendly interface for voice input, and it communicates with a backend server to process the voice commands and perform the calculations.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+First, make sure you have Flutter and Dart installed on your machine. If you haven't installed them yet, you can follow the instructions [here](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+To install the project, you can clone this repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/adityadelhi/voice_calculator.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then, navigate to the project directory and install the dependencies:
+
+```bash
+cd voice_calculator_flutter\.
+flutter pub get
+```
+
+## Usage
+
+To run the app, use the following command:
+
+```bash
+flutter run
+```
+
+You can also build the app for deployment using:
+
+```bash
+flutter build windows --release #for Windows
+flutter build web --release #for Web
+
+
+```
+
+## Features
+
+- Voice input for mathematical calculations
+- User-friendly interface
+- Communication with a backend server for processing voice commands
+
+## Contributing
+
+If you want to contribute to this project, you can follow these steps:
+
+- Fork this repository.
+- Create a new branch.
+- Make your changes and commit them.
+- Push your changes to your fork.
+- Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Authors
+Aditya Patel
+Email: aditadelhi@gmail.com
+Github: https://github.com/adityadelhi
